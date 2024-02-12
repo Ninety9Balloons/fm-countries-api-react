@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Filter from "./components/filter/Filter";
 import Header from "./components/header/Header";
 import SearchBar from "./components/search/SearchBar";
-import CountriesList from "./components/countriesList/countriesList";
+import CountriesList from "./components/countriesList/CountriesList";
 import "./index.css";
 import Country from "./components/country/Country";
 import { ThemeProvider } from "./utils/themeContext";
