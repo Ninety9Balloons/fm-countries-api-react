@@ -1,0 +1,15 @@
+.dark {
+    --color-bg-primary: hsl(207, 26%, 17%);
+    --color-bg-secondary: hsl(209, 23%, 22%);
+    --color-text-primary: hsl(0, 0%, 98%);
+}
+
+.light {
+    --color-bg-primary: hsl(0, 0%, 98%);
+    --color-bg-secondary: hsl(0, 0%, 100%);
+    --color-text-primary: #000;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
